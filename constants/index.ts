@@ -90,19 +90,19 @@ export const SKILL_DATA = [
 
 export const SOCIALS = [
   {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/cynthiamoraa",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://x.com/moraa734",
+  },
+  {
+    name: "Linkedin",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/cynthia-moraa-505a47230",
   },
 ] as const;
 
@@ -228,8 +228,8 @@ export const FULLSTACK_SKILL = [
     height: 70,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
+    skill_name: "Nestjs",
+    image: "nestjs.png",
     width: 70,
     height: 70,
   },
@@ -259,25 +259,46 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Modern Next.js 14 E-Commerce Experience",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      "A sleek, high-performance e-commerce web app built with Next.js 14, focused on speed, clean UI, and real-world usability. This project showcases modern frontend architecture, dynamic routing, responsive design, and seamless user interactions — demonstrating how scalable, production-ready applications can be crafted with today’s web technologies.",
+    image: "/projects/qc.png",
+    link: "https://quick-cart-ashy-kappa.vercel.app/",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Modern React Food Delivery Clone",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      "A fully interactive food delivery web app built with React.js and Tailwind CSS, inspired by real-world platforms like Uber Eats. This project showcases complex user flows, dynamic data handling, responsive design, and smooth navigation — all while maintaining performance, accessibility, and a modern user experience. It reflects my ability to translate real products into scalable, production-ready interfaces.",
+    image: "/projects/ue.png",
+    link: "https://ubereats-clone-q97n.vercel.app/",
   },
   {
-    title: "Space Themed Website",
+    title: "Fariji — Leave Your Family in Perfect Order",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      "Fariji is a modern web platform built with React.js, Node.js, and Tailwind CSS, designed to help individuals plan, organize, and communicate essential end-of-life arrangements with clarity and dignity. The platform empowers families with peace of mind by ensuring critical details are securely managed and easily accessible when they matter most — combining thoughtful user experience with reliable, scalable technology.",
+    image: "/projects/fariji.png",
+    link: "https://fariji.netlify.app/",
+  },
+  {
+    title: "BIMBIN",
+    description:
+      "This modern web platform, built with React.js and Tailwind CSS, connects clients to reliable cleaning services and strategic property investment opportunities. Designed for clarity, speed, and accessibility, it delivers a seamless user experience that supports informed decisions, efficient service booking, and long-term value creation in clean living and smart real estate solutions.",
+    image: "/projects/bimbin.png",
+    link: "https://www.bimbin.africa/",
+  },
+  {
+    title: "Legal Revenue, Simplified",
+    description:
+      "Leveraging my expertise in Next.js, Tailwind CSS, and full-stack development, I built a platform that automatically captures billable work and streamlines legal billing as a reliable system of record. By combining dynamic data handling, responsive UI design, and scalable architecture, I ensured that firms can eliminate revenue leakage, track every earned minute accurately, and operate more efficiently.",
+    image: "/projects/ss.png",
+    link: "https://stripey-six.vercel.app/",
+  },
+  {
+    title: "Movie Recommendation Platform",
+    description:
+      "A fully featured Netflix‑style movie recommendation web app built with Next.js 14, showcasing complex, real‑world functionality and modern full‑stack architecture. I implemented secure user authentication with NextAuth, structured data storage with MongoDB, and robust form handling using React‑Hook‑Form. The interface is crafted with React, TypeScript, and Tailwind CSS to deliver a responsive, intuitive, and visually engaging experience. This project reflects my ability to build scalable applications with authentication, dynamic data fetching, and polished UI/UX using today’s top technologies.",
+    image: "/projects/seehub.png",
+    link: "https://seeflix-eta.vercel.app/",
   },
 ] as const;
 
@@ -286,14 +307,9 @@ export const FOOTER_DATA = [
     title: "Community",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/cynthiamoraa",
       },
       {
         name: "Discord",
@@ -306,30 +322,20 @@ export const FOOTER_DATA = [
     title: "Social Media",
     data: [
       {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
         name: "Twitter",
         icon: RxTwitterLogo,
-        link: "https://twitter.com",
+        link: "https://x.com/moraa734",
       },
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/cynthia-moraa-505a47230",
       },
     ],
   },
   {
     title: "About",
     data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
       {
         name: "Learning about me",
         icon: null,
@@ -338,7 +344,7 @@ export const FOOTER_DATA = [
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "cmoraa734@gmail.com",
       },
     ],
   },
@@ -354,11 +360,15 @@ export const NAV_LINKS = [
     link: "#skills",
   },
   {
+    title: "Experience",
+    link: "#experience",
+  },
+  {
     title: "Projects",
     link: "#projects",
   },
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/cynthiamoraa",
 };

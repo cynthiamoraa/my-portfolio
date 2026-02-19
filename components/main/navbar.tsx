@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,19 +13,18 @@ export const Navbar = () => {
       {/* Navbar Container */}
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
         {/* Logo + Name */}
-        <Link
-          href="#about-me"
-          className="flex items-center"
-        >
+        <Link href="#about-me" className="flex items-center">
           <Image
-            src="/logo.png"
+            src="/profile.png"
             alt="Logo"
             width={70}
             height={70}
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">
+            Cynthia Moraa
+          </div>
         </Link>
 
         {/* Web Navbar */}
@@ -42,14 +41,14 @@ export const Navbar = () => {
             ))}
 
             {/* Source Code */}
-            <Link
+            {/* <Link
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
               Source Code
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -91,7 +90,7 @@ export const Navbar = () => {
                 {link.title}
               </Link>
             ))}
-            <Link
+            {/* <Link
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
@@ -99,7 +98,7 @@ export const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Source Code
-            </Link>
+            </Link> */}
           </div>
 
           {/* Social Icons */}
