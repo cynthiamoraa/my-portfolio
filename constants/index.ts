@@ -339,7 +339,7 @@ export const FOOTER_DATA = [
       {
         name: "Learning about me",
         icon: null,
-        link: "https://example.com",
+        link: "https://cynthiamoraa.vercel.app/",
       },
       {
         name: "Contact Me",
